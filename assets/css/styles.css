@@ -286,7 +286,7 @@ img {
   justify-self: center; /* Center the image horizontally */
 }
 .about__img img {
-  width: 100%; /* Ensure the image takes full width of its container */
+  width: 85%; /* Ensure the image takes full width of its container */
   max-width: 300px; /* Adjust max-width as per your design */
   border-radius: 0.5rem; /* Rounded corners if desired */
 }
@@ -320,6 +320,13 @@ img {
 
 /* ===== Timeline =====*/
 
+.timeline__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Adjust grid columns as per your design */
+  align-items: center;
+  text-align: initial;
+}
+
 .timeline-item {
     flex: 0 0 auto; /* Prevent items from growing */
     background-color: #f0f0f0;
@@ -340,9 +347,6 @@ img {
     /* Style for the content inside each timeline item */
 }
 
-.timeline-item:last-child {
-    margin-right: 0; /* Remove margin from last item */
-}
 
 .timeline-item:hover {
     background-color: #e0e0e0; /* Example hover background color */
