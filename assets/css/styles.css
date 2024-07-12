@@ -520,6 +520,7 @@ body {
     border-radius: 10px;
     padding: 20px;
     text-align: center;
+    margin: 20px 0; /* Add margin for separation */
 }
 .container::after {
     content: '';
@@ -567,3 +568,4 @@ body {
         left: 50%;
     }
 }
+
