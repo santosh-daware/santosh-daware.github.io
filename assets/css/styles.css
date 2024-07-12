@@ -454,6 +454,7 @@ img {
   .home__img {
     width: 400px;
     bottom: 10%;
+    padding-left: 30px;
   }
   .about__container {
     padding-top: 2rem;
