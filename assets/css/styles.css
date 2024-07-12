@@ -124,7 +124,7 @@ img {
 }
 
 .quote-title {
-    margin-bottom: 5%;
+    margin-bottom: var(--mb-4);
   }
   .quote-title::after {
     width: 80px;
