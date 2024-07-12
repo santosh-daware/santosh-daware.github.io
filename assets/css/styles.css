@@ -320,38 +320,40 @@ img {
 
 /* ===== Timeline =====*/
 
-.timeline__container {
+.work__container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Adjust grid columns as per your design */
-  align-items: center;
-  text-align: initial;
+  grid-template-columns: 1fr; /* Default to single column */
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding-top: 2rem;
 }
 
-.timeline-item {
-    flex: 0 0 auto; /* Prevent items from growing */
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-right: 20px; /* Adjust spacing between items */
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: 0.5s ; /* Add transition for smooth effect */
+@media screen and (min-width: 768px) {
+  .work__container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on wider screens */
+  }
+
+  .work__container > :nth-child(1),
+  .work__container > :nth-child(2) {
+    grid-column: span 2; /* First and second items span two columns */
+  }
 }
 
-.timeline-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Adjust grid columns as per your design */
-  align-items: center;
-  text-align: initial;
-  transition: 0.5s;
-    /* Style for the content inside each timeline item */
+/* Styling for work items */
+.work__img {
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 
-
-.timeline-item:hover {
-    background-color: #e0e0e0; /* Example hover background color */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Example hover box-shadow */
+.work__img img {
+  transition: 1s;
 }
+
+.work__img img:hover {
+  transform: scale(1.1);
+}
+
 
 
 /* ===== SKILLS =====*/
