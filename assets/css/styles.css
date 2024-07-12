@@ -98,7 +98,7 @@ img {
 }
 /*===== Quote =====*/
 .quote-title {
-  position: relative;
+  position: center;
   font-size: var(--h2-font-size);
   color: var(--first-color);
   margin-top: var(--mb-2);
