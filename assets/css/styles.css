@@ -320,38 +320,39 @@ img {
 
 /* ===== Timeline =====*/
 
-.work__container {
-  display: grid;
-  grid-template-columns: 1fr; /* Default to single column */
-  column-gap: 2rem;
-  row-gap: 2rem;
-  padding-top: 2rem;
+.section {
+    padding-top: 4rem; /* Adjust padding as needed */
+    padding-bottom: 4rem; /* Adjust padding as needed */
+    text-align: center; /* Center text and elements */
 }
 
-@media screen and (min-width: 768px) {
-  .work__container {
-    grid-template-columns: repeat(2, 1fr); /* Two columns on wider screens */
-  }
-
-  .work__container > :nth-child(1),
-  .work__container > :nth-child(2) {
-    grid-column: span 2; /* First and second items span two columns */
-  }
+.timeline {
+    display: flex;
+    flex-direction: column; /* Display timeline items vertically */
+    align-items: center; /* Center items horizontally */
 }
 
-/* Styling for work items */
-.work__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-  border-radius: 0.5rem;
-  overflow: hidden;
+.timeline-container {
+    width: 100%; /* Ensure full width */
+    display: flex;
+    flex-direction: column; /* Display items vertically */
+    gap: 2rem; /* Adjust gap between timeline items */
 }
 
-.work__img img {
-  transition: 1s;
+.timeline-item {
+    width: 100%; /* Ensure full width */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Add transition for smooth effect */
 }
 
-.work__img img:hover {
-  transform: scale(1.1);
+
+.timeline-item:hover {
+    background-color: #e0e0e0; /* Example hover background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Example hover box-shadow */
 }
 
 
