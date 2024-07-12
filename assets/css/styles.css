@@ -98,7 +98,7 @@ img {
 }
 /*===== Quote =====*/
 .quote-title {
-  position: center;
+  position: relative;
   font-size: var(--h2-font-size);
   color: var(--first-color);
   margin-top: var(--mb-2);
@@ -124,7 +124,7 @@ img {
 }
 
 .quote-title {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
   .quote-title::after {
     width: 80px;
