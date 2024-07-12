@@ -442,7 +442,7 @@ img {
     grid-template-columns: repeat(2, 1fr); /* Set up a two-column grid for wider screens */
   }
 
-  .work__container > .work__item:nth-child(3n+1) {
+  .work__container > .work__item:nth-child(2n+1) {
     grid-column: span 1; /* Reset to span one column for wider screens */
   }
 }
