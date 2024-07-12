@@ -79,6 +79,7 @@ img {
   margin-bottom: var(--mb-4);
   text-align: center;
 }
+
 .section-title::after {
   position: absolute;
   content: "";
@@ -95,6 +96,43 @@ img {
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
+/*===== Quote =====*/
+.quote-title {
+  position: relative;
+  font-size: var(--h2-font-size);
+  color: var(--first-color);
+  margin-top: var(--mb-2);
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
+
+.quote-title::after {
+  position: absolute;
+  content: "";
+  width: 64px;
+  height: 0.18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 2rem;
+  background-color: var(--first-color);
+}
+
+.section {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.quote-title {
+    margin-bottom: 10%;
+  }
+  .quote-title::after {
+    width: 80px;
+    top: 3rem;
+  }
+
+
+
 
 /*===== LAYOUT =====*/
 .bd-grid {
