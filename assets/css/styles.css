@@ -294,6 +294,10 @@ img {
 }
 
 .timeline-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Adjust grid columns as per your design */
+  align-items: center;
+  text-align: initial;
   transition: 0.5s;
     /* Style for the content inside each timeline item */
 }
