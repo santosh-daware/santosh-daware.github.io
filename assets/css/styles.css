@@ -212,7 +212,7 @@ img {
   right: 0;
   bottom: 0;
   width: 260px;
-  padding-left = 30px;
+  padding-left = 130px;
 }
 .home__blob {
   fill: var(--first-color);
@@ -455,7 +455,7 @@ img {
   .home__img {
     width: 400px;
     bottom: 10%;
-    padding-left: 30px;
+    padding-left: 130px;
   }
   .about__container {
     padding-top: 2rem;
