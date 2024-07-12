@@ -290,7 +290,7 @@ img {
     margin-right: 20px; /* Adjust spacing between items */
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease; /* Add transition for smooth effect */
+    transition: all 0.5s ease; /* Add transition for smooth effect */
 }
 
 .timeline-content {
