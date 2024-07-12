@@ -419,7 +419,7 @@ img {
   padding-top: 2rem;
 }
 
-.work__container > .work__item:nth-child(3n+1) {
+.work__container > .work__item:nth-child(2n+1) {
   grid-column: span 2; /* Make the first item of each set of three span two columns */
 }
 
