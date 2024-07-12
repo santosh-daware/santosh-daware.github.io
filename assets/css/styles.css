@@ -516,62 +516,13 @@ body {
     padding: 20px;
 }
 
-.timeline-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-}
+
+
 
 .timeline {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-}
-
-.timeline-item {
-    width: 45%;
-    padding: 20px;
-    margin: 10px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 10px;
-}
-
-.timeline-item.left .timeline-content {
-    text-align: right;
-}
-
-.timeline-item.right .timeline-content {
-    text-align: left;
-}
-
-.timeline-content {
-    padding: 10px;
-}
-
-.timeline-item.left::before,
-.timeline-item.right::before {
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: #007bff; /* or any other color you prefer */
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1;
-}
-
-.timeline-item.left::before {
-    left: -5px;
-}
-
-.timeline-item.right::before {
-    right: -5px;
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+    padding: 20px 0;
 }
 
 .timeline-item {
@@ -582,6 +533,7 @@ body {
     margin-right: 20px; /* Adjust spacing between items */
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Add transition for smooth effect */
 }
 
 .timeline-content {
@@ -592,7 +544,10 @@ body {
     margin-right: 0; /* Remove margin from last item */
 }
 
-
+.timeline-item:hover {
+    background-color: #e0e0e0; /* Example hover background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Example hover box-shadow */
+}
 
 
 
