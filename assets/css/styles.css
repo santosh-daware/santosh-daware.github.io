@@ -280,6 +280,32 @@ img {
   border-radius: 0.5rem; /* Rounded corners if desired */
 }
 
+/* ===== Timeline =====*/
+
+.timeline-item {
+    flex: 0 0 auto; /* Prevent items from growing */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 20px; /* Adjust spacing between items */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+
+.timeline-content {
+    /* Style for the content inside each timeline item */
+}
+
+.timeline-item:last-child {
+    margin-right: 0; /* Remove margin from last item */
+}
+
+.timeline-item:hover {
+    background-color: #e0e0e0; /* Example hover background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Example hover box-shadow */
+}
+
 
 /* ===== SKILLS =====*/
 .skills__container {
@@ -519,35 +545,6 @@ body {
 
 
 
-.timeline {
-    display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling if necessary */
-    padding: 20px 0;
-}
-
-.timeline-item {
-    flex: 0 0 auto; /* Prevent items from growing */
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-right: 20px; /* Adjust spacing between items */
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease; /* Add transition for smooth effect */
-}
-
-.timeline-content {
-    /* Style for the content inside each timeline item */
-}
-
-.timeline-item:last-child {
-    margin-right: 0; /* Remove margin from last item */
-}
-
-.timeline-item:hover {
-    background-color: #e0e0e0; /* Example hover background color */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Example hover box-shadow */
-}
 
 
 
