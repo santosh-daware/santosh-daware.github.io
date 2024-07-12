@@ -415,14 +415,10 @@ img {
 /* ===== WORK =====*/
 .work__container {
   display: grid; /* Ensure the container is using grid layout */
-  grid-template-columns: 1fr; /* Set up a single-column grid for the first and second row */
+  grid-template-columns: repeat(1, 1fr); /* Set up a 2-column grid */
   column-gap: 2rem;
   row-gap: 2rem;
   padding-top: 2rem;
-}
-
-.work__container > .work__item:nth-child(2n+1) {
-  grid-column: span 2; /* Make the first item of each set of three span two columns */
 }
 
 .work__img {
@@ -437,16 +433,6 @@ img {
 
 .work__img img:hover {
   transform: scale(1.1);
-}
-
-@media screen and (min-width: 768px) {
-  .work__container {
-    grid-template-columns: repeat(2, 1fr); /* Set up a two-column grid for wider screens */
-  }
-
-  .work__container > .work__item:nth-child(2n+1) {
-    grid-column: span 1; /* Reset to span one column for wider screens */
-  }
 }
 
 
