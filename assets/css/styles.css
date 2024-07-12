@@ -236,25 +236,27 @@ img {
 
 /* ===== ABOUT =====*/
 .about__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    text-align: initial;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Adjust grid columns as per your design */
+  align-items: center;
+  text-align: initial;
 }
 .about__subtitle {
   margin-bottom: var(--mb-2);
 }
 .about__img {
-    justify-self: center;
+  justify-self: center; /* Center the image horizontally */
 }
 .about__img img {
-  width: 200px;
-  border-radius: 0.5rem;
+  width: 100%; /* Ensure the image takes full width of its container */
+  max-width: 300px; /* Adjust max-width as per your design */
+  border-radius: 0.5rem; /* Rounded corners if desired */
 }
 .about__text-container {
-    text-align: left;
-    padding-left: 20px;
+  text-align: left;
+  padding-left: 20px; /* Adjust as needed */
 }
+
 
 /* ===== SKILLS =====*/
 .skills__container {
