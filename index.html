@@ -104,8 +104,9 @@
                         <p class="about__text" ; style="text-indent:30px">     Beyond research, I enjoy playing sports like football, badminton, and running.</p>           
                     </div>                                   
                 </div>
-            </section>
-                    <title>Horizontal Timeline</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horizontal Timeline</title>
 <style>
 * {
   box-sizing: border-box;
@@ -113,14 +114,17 @@
 
 body {
   font-family: Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
 }
 
 .timeline {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 0;
   position: relative;
 }
 
@@ -139,11 +143,11 @@ body {
 .container {
   position: relative;
   width: 25%;
-  padding: 10px 20px;
-  text-align: center;
   background-color: white;
   border: 2px solid black;
   border-radius: 10px;
+  padding: 20px;
+  text-align: center;
 }
 
 .container::after {
@@ -160,11 +164,11 @@ body {
 }
 
 .container.left::after {
-  left: -16px;
+  left: -35px;
 }
 
 .container.right::after {
-  right: -16px;
+  right: -35px;
 }
 
 .content {
@@ -213,7 +217,7 @@ body {
   </div>
   <div class="container right">
     <div class="content">
-      <h2>2014 - 2021 </h2>
+      <h2>2014 - 2021</h2>
       <p>Scientist and Team Lead, Tata Research Development and Design Center, Pune, India.</p>
     </div>
   </div>
