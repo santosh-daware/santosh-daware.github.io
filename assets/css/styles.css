@@ -596,7 +596,7 @@ body {
 
 .disk
 {
-    list-style-type: disc;
+    list-style-type: "*";
 }
 
 
