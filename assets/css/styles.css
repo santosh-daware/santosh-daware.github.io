@@ -357,38 +357,28 @@ img {
 /* ===== awards =====*/
 
 .award-container {
-  width: 80%;
-  padding: 20px;
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
 }
 
-.award-section .list {
-  list-style: disc inside;
+.list-column {
+  flex: 1;
+}
+
+.disk {
+  list-style-type: disc;
   padding-left: 20px;
 }
 
-.award-section .list li {
-  margin-bottom: 10px;
-  padding-left: 10px;
-  position: relative;
+.disk li {
+  margin-bottom: 1rem;
 }
 
-.award-section .list li::before {
-  content: "*";
-  
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-  text-align: center;
+.about__text {
+  margin: 0.5rem 0;
 }
 
-  .award-section .list {
-    padding-left: 0;
-    margin-bottom: 20px;
-  }
-}
 
 
 
