@@ -595,14 +595,6 @@ body {
 }
 
 
-ul {
-    list-style-type: none;
-}
-
-li:before {
-  content: "\2605";
-}
-
 
 .highlight {
   background-color: yellow;
