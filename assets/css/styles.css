@@ -358,9 +358,6 @@ img {
 
 .award-container {
   width: 80%;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -378,7 +375,7 @@ img {
 }
 
 .award-section .list li::before {
-  content: "•";
+  content: "*";
   color: var(--first-color, #333);
   font-weight: bold;
   display: inline-block;
