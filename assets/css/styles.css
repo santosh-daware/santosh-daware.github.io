@@ -357,9 +357,11 @@ img {
 /* ===== awards =====*/
 
 .award-container {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Adjust grid columns as per your design */
   align-items: flex-start;
+  text-align: initial;
+  justify-content: space-between;
   gap: 2rem;
 }
 
