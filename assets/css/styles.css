@@ -595,6 +595,9 @@ body {
 }
 
 
+ul {
+    list-style-type: none;
+}
 
 ul li::before {
     content: "\f005";
