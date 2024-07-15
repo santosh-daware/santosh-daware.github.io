@@ -596,7 +596,11 @@ body {
 
 
 
-
+ul li::before {
+    content: "\f005";
+    font-family: "Font Awesome 5 Free";
+    padding: 0 10px 0 0;
+}
 
 
 
