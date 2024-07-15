@@ -376,7 +376,7 @@ img {
 
 .award-section .list li::before {
   content: "*";
-  color: var(--first-color, #333);
+  
   font-weight: bold;
   display: inline-block;
   width: 1em;
