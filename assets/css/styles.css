@@ -355,9 +355,46 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Example hover box-shadow */
 }
 /* ===== awards =====*/
-.award__container {
-  row-gap: 2rem;
+
+.award-container {
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
+
+.award-section .list {
+  list-style: disc inside;
+  padding-left: 20px;
+}
+
+.award-section .list li {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+.award-section .list li::before {
+  content: "•";
+  color: var(--first-color, #333);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  text-align: center;
+}
+
+  .award-section .list {
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+}
+
+
+
 
 /* ===== SKILLS =====*/
 .skills__container {
@@ -596,10 +633,7 @@ body {
     padding: 20px;
 }
 
-.disk
-{
-    list-style-type: "*";
-}
+
 
 
 .highlight {
