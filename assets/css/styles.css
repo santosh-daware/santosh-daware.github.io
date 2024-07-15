@@ -354,8 +354,10 @@ img {
     background-color: #e0e0e0; /* Example hover background color */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Example hover box-shadow */
 }
-
-
+/* ===== awards =====*/
+.award__container {
+  row-gap: 2rem;
+}
 
 /* ===== SKILLS =====*/
 .skills__container {
