@@ -361,6 +361,7 @@ img {
   grid-template-columns: 1fr 1fr; /* Adjust grid columns as per your design */
   align-items: flex-start;
   text-align: initial;
+  flex-direction: column;
   justify-content: space-between;
   gap: 2rem;
 }
@@ -383,8 +384,11 @@ img {
 }
 
 
-
-
+.award-container {
+  display: flex;
+  
+  gap: 2rem;
+}
 
 /* ===== SKILLS =====*/
 .skills__container {
