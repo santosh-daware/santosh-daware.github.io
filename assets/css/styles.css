@@ -358,16 +358,14 @@ img {
 
 .award-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Adjust grid columns as per your design */
+  grid-template-columns: 1fr 1fr; /* Two columns of equal width */
   align-items: flex-start;
   text-align: initial;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 2rem;
+  gap: 2rem; /* Space between the columns */
 }
 
 .list-column {
-  flex: 1;
+  flex: 1; /* Not necessary if using grid layout */
 }
 
 .disk {
@@ -383,12 +381,6 @@ img {
   margin: 0.5rem 0;
 }
 
-
-.award-container {
-  display: flex;
-  
-  gap: 2rem;
-}
 
 /* ===== SKILLS =====*/
 .skills__container {
