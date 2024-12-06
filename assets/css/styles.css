@@ -679,3 +679,41 @@ body {
   font-weight: 600;
   color: var(--first-color);
 }
+/* Ensure the container has a flex display */
+.work__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+/* Style for the list columns */
+.list-column {
+  width: 48%; /* Adjust the width to fit the layout */
+  padding: 10px;
+}
+
+/* Style for the headings */
+.about__text {
+  font-size: 16px; /* Adjust the font size as needed */
+  line-height: 1.5;
+}
+
+/* Optional: Style for the unordered list */
+.disk {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Make sure the content is responsive */
+@media (max-width: 768px) {
+  .work__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .list-column {
+    width: 100%;
+    margin-bottom: 20px; /* Adds space between sections when stacked */
+  }
+}
+
