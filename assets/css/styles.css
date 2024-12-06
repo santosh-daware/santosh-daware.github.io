@@ -93,7 +93,7 @@ img {
 }
 
 .section {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 /*===== Quote =====*/
 .quote-title {
@@ -118,7 +118,7 @@ img {
 }
 
 .section {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
@@ -328,7 +328,7 @@ img {
 /* ===== Timeline =====*/
 
 .section {
-    padding-top: 4rem; /* Adjust padding as needed */
+    padding-top: 10px; /* Adjust padding as needed */
     padding-bottom: 4rem; /* Adjust padding as needed */
     text-align: center; /* Center text and elements */
 }
@@ -562,7 +562,7 @@ img {
     margin: 0;
   }
   .section {
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
   }
   .section-title {
@@ -751,6 +751,27 @@ body {
     font-weight: bold;
     color: #3a3a3a;
 }
+/* Ensuring the quote is in a horizontal container with space at the top */
+.quote-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px; /* Adjust this based on your top menu height */
+    padding: 0 20px; /* Optional padding for spacing */
+}
+
+/* Ensuring the quote text is styled properly */
+.skills__subtitle {
+    font-size: 1.5em; /* Adjust size as needed */
+    font-style: italic;
+    color: #333; /* Adjust color as needed */
+}
+
+/* Optional: Adjust top section to avoid overlap */
+body {
+    padding-top: 80px; /* This ensures the content starts below the top menu */
+}
+
+
 /* Make sure the content has a lower z-index than the navigation bar 
 #research-theme {
     z-index: 1;
