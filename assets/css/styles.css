@@ -665,3 +665,17 @@ body {
   transform: scale(0.5);
   transform-origin: center;
 }
+.timeline-title {
+  font-size: 1.5rem;
+  font-weight: var(--font-semi);
+  color: var(--first-color);
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
+.cover-art-text {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--first-color);
+}
