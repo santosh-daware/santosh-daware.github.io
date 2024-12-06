@@ -716,4 +716,15 @@ body {
     margin-bottom: 20px; /* Adds space between sections when stacked */
   }
 }
-
+.research-theme-content {
+  display: flex;
+  flex-direction: column; /* Or row, depending on layout preference */
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px; /* Add gap between elements if needed */
+}
+.research-theme-container {
+  width: 100%;
+  max-width: 1200px; /* or any appropriate max-width */
+  margin: 0 auto; /* Center the container */
+}
