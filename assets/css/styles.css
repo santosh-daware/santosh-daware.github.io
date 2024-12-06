@@ -657,7 +657,7 @@ body {
 
 .profile-picture {
   width: 80%;
-  transform: scale(0.5);
+  transform: scale(0.9);
   transform-origin: center;
 }
 .about__img {
