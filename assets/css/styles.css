@@ -643,3 +643,9 @@ body {
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0)
 }
+
+.about__cover-art {
+  width: 80%;  /* Adjust the width to your preference */
+  max-width: 800px;  /* Optional: set a maximum width */
+  height: auto;  /* Keep the aspect ratio intact */
+}
