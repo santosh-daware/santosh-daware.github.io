@@ -766,20 +766,4 @@ body {
     color: #333; /* Adjust color as needed */
 }
 
-/* Optional: Adjust top section to avoid overlap 
-body {
-    padding-top: 80px; /* This ensures the content starts below the top menu */
-}*/
-
-
-/* Make sure the content has a lower z-index than the navigation bar 
-#research-theme {
-    z-index: 1;
-    position: relative; /* Ensures the section respects the flow */
-}
-
-nav {
-    z-index: 1000; /* Higher z-index so it stays on top */
-}*/
-
 
