@@ -760,7 +760,7 @@ body {
 }
 
 /* Ensuring the quote text is styled properly */
-.skills__subtitle {
+.quote__subtitle {
     font-size: 1.5em; /* Adjust size as needed */
     font-style: italic;
     color: #333; /* Adjust color as needed */
