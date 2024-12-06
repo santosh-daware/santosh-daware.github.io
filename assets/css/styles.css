@@ -636,7 +636,7 @@ body {
   color: #000000;
 }
 .cover-art-img {
-  width: 100%;
+  width: 30%;
   max-width: 300px;
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0)
