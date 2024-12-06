@@ -646,3 +646,9 @@ body {
   max-width: 800px;  /* Optional: set a maximum width */
   height: auto;  /* Keep the aspect ratio intact */
 }
+
+.profile-picture {
+  width: 30%;
+  transform: scale(0.5);
+  transform-origin: center;
+}
