@@ -769,7 +769,7 @@ body {
 /* Optional: Adjust top section to avoid overlap */
 body {
     padding-top: 80px; /* This ensures the content starts below the top menu */
-}
+}*/
 
 
 /* Make sure the content has a lower z-index than the navigation bar 
