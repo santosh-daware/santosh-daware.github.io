@@ -751,4 +751,14 @@ body {
     font-weight: bold;
     color: #3a3a3a;
 }
+/* Make sure the content has a lower z-index than the navigation bar */
+#research-theme {
+    z-index: 1;
+    position: relative; /* Ensures the section respects the flow */
+}
+
+nav {
+    z-index: 1000; /* Higher z-index so it stays on top */
+}
+
 
