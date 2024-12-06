@@ -93,8 +93,7 @@ img {
 }
 
 .section {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 10px;
 }
 /*===== Quote =====*/
 .quote-title {
@@ -119,8 +118,8 @@ img {
 }
 
 .section {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .quote-title {
@@ -563,8 +562,8 @@ img {
     margin: 0;
   }
   .section {
-    padding-top: 4rem;
-    padding-bottom: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .section-title {
     margin-bottom: var(--mb-6);
