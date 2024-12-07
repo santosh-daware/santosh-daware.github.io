@@ -298,7 +298,7 @@ img {
   border-radius: 0.5rem; /* Rounded corners if desired */
 }
 .about__text-container {
-  text-align: left;
+  text-align: justify;
   padding-left: 20px; /* Adjust as needed */
 }
 
@@ -386,6 +386,7 @@ img {
 
 .about__text {
   margin: 0.5rem 0;
+  text-align: justify;
 }
 
 
@@ -468,6 +469,7 @@ img {
 
 .about__text {
   margin: 0.5rem 0;
+  text-align: justify;
 }
 
 
