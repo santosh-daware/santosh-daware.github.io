@@ -106,7 +106,8 @@ img {
 }
 
 .quote-title::after {
-  position: absolute;
+  display: none
+  /*position: absolute;
   content: "";
   width: 64px;
   height: 0.18rem;
@@ -114,7 +115,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--first-color);*/
 }
 
 .section {
@@ -179,16 +180,16 @@ img {
   color: #fff;
 }
 .nav__link:hover {
-  position: relative;
+ /* position: relative;*/
 }
 .nav__link:hover::after {
-  position: absolute;
+ /* position: absolute;
   content: "";
   width: 100%;
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--first-color);*/
 }
 .nav__logo {
   color: var(--second-color);
@@ -276,7 +277,7 @@ img {
   transition: 0.3s;
 }
 .button:hover {
-  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+/*  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);*/
 }
 
 /* ===== ABOUT =====*/
@@ -353,7 +354,7 @@ img {
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease; /* Add transition for smooth effect */
+   /* transition: all 0.3s ease; *//* Add transition for smooth effect */
 }
 
 
