@@ -1,4 +1,4 @@
-/*===== MENU SHOW =====*/ 
+/*===== MENU SHOW =====
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
@@ -11,7 +11,7 @@ const showMenu = (toggleId, navId) =>{
 }
 showMenu('nav-toggle','nav-menu')
 
-/*==================== REMOVE MENU MOBILE ====================*/
+
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
@@ -21,7 +21,7 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+
 const sections = document.querySelectorAll('section[id]')
 
 const scrollActive = () =>{
@@ -42,7 +42,7 @@ const scrollActive = () =>{
 }
 window.addEventListener('scroll', scrollActive)
 
-/*===== SCROLL REVEAL ANIMATION =====*/
+
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
@@ -54,4 +54,32 @@ const sr = ScrollReveal({
 sr.reveal('.home__data, .timeline__item .about__img, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home__img, .timeline__content, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
-sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
+sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); */
+/*===== MENU SHOW =====*/ 
+const showMenu = (toggleId, navId) => {
+    const toggle = document.getElementById(toggleId),
+        nav = document.getElementById(navId);
+
+    if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('show');
+        });
+    }
+};
+showMenu('nav-toggle', 'nav-menu');
+
+/*==================== REMOVE MENU MOBILE ====================*/
+const navLink = document.querySelectorAll('.nav__link');
+
+function linkAction() {
+    const navMenu = document.getElementById('nav-menu');
+    navMenu.classList.remove('show');
+}
+navLink.forEach(n => n.addEventListener('click', linkAction));
+
+/*==================== DISABLE SCROLL SECTIONS ACTIVE LINK ====================*/
+// Removed scroll-based active link function
+
+/*===== REMOVE SCROLL REVEAL ANIMATION =====*/
+// Completely removed ScrollReveal initialization
+
